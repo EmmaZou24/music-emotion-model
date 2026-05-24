@@ -1,0 +1,40 @@
+# Core data science
+numpy
+pandas
+scikit-learn
+ 
+# Audio processing
+librosa
+soundfile
+ 
+# Deep learning
+torch
+torchvision
+ 
+# NLP / text embeddings
+sentence-transformers
+nltk
+ 
+# Data collection
+spotipy
+lyricsgenius
+gdown
+ 
+# Experiment tracking
+wandb
+ 
+# Explainability
+shap
+ 
+# Visualization
+matplotlib
+seaborn
+ 
+# Jupyter
+jupyter
+ipykernel
+ 
+# Utilities
+python-dotenv
+tqdm
+pyyaml

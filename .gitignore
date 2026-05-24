@@ -1,0 +1,7 @@
+# environment
+.env
+venv/
+
+# data
+data/raw/
+data/raw/melspecs/
