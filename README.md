@@ -10,7 +10,7 @@ source venv/bin/activate
 ```bash
   git clone https://github.com/MTG/mtg-jamendo-dataset.git
   cd mtg-jamendo-dataset
-  python3 ../mtg-jamendo-dataset/scripts/download/download.py \
+  caffeinate python3 ../mtg-jamendo-dataset/scripts/download/download.py \
     --dataset autotagging_moodtheme \
     --type melspecs \
     --unpack --remove \
@@ -22,4 +22,9 @@ source venv/bin/activate
 for f in data/raw/*.tar; do
     tar -xf "$f" -C data/raw/melspecs/
 done
+```
+
+4. Run the data fetching and matching file `matching.py`. This command will initiate fetching of Genius lyric and Spotify audio feature data for each song. A CSV with the matched track data will be created in `data/processed/matched_tracks.csv`.
+```bash
+caffeinate python3 src/data/matching.py
 ```
